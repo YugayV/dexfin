@@ -9,8 +9,6 @@ Dexter is an autonomous financial research agent that thinks, plans, and learns 
 
 Dexter takes complex financial questions and turns them into clear, step-by-step research plans. It runs those tasks using live market data, checks its own work, and refines the results until it has a confident, data-backed answer.  
 
-It’s not just another chatbot.  It’s an agent that plans ahead, verifies its progress, and keeps iterating until the job is done.
-
 **Key Capabilities:**
 - **Intelligent Task Planning**: Automatically decomposes complex queries into structured research steps
 - **Autonomous Execution**: Selects and executes the right tools to gather financial data
@@ -19,6 +17,9 @@ It’s not just another chatbot.  It’s an agent that plans ahead, verifies its
 - **Safety Features**: Built-in loop detection and step limits to prevent runaway execution
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
+
+<img width="996" height="639" alt="Screenshot 2025-11-22 at 1 45 07 PM" src="https://github.com/user-attachments/assets/8915fd70-82c9-4775-bdf9-78d5baf28a8a" />
+
 
 ### Prerequisites
 

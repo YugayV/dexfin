@@ -7,17 +7,21 @@ from dexter.tools.finance.filings import get_8K_filing_items
 from dexter.tools.finance.fundamentals import get_income_statements
 from dexter.tools.finance.fundamentals import get_balance_sheets
 from dexter.tools.finance.fundamentals import get_cash_flow_statements
+from dexter.tools.finance.fundamentals import get_all_financial_statements
 from dexter.tools.finance.metrics import get_financial_metrics_snapshot
 from dexter.tools.finance.metrics import get_financial_metrics
 from dexter.tools.finance.prices import get_price_snapshot
 from dexter.tools.finance.prices import get_prices
 from dexter.tools.finance.news import get_news
 from dexter.tools.finance.estimates import get_analyst_estimates
+from dexter.tools.finance.segments import get_segmented_revenues
+from dexter.tools.search.google import search_google_news
 
 TOOLS: list[Callable[..., any]] = [
     get_income_statements,
     get_balance_sheets,
     get_cash_flow_statements,
+    get_all_financial_statements,
     get_10K_filing_items,
     get_10Q_filing_items,
     get_8K_filing_items,
@@ -28,4 +32,6 @@ TOOLS: list[Callable[..., any]] = [
     get_financial_metrics,
     get_news,
     get_analyst_estimates,
+    get_segmented_revenues,
+    search_google_news,
 ]
